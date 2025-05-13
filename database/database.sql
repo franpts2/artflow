@@ -65,3 +65,11 @@ CREATE TABLE Category (
     id INTEGER PRIMARY KEY,
     category_type TEXT NOT NULL
 );
+
+INSERT INTO Category (category_type) VALUES
+('Illustration & Digital Art'),
+('Graphic Design and Branding'),
+('Traditional Art & Painting'),
+('3D Art & Animation'),
+('Handmade & Craft Art'),
+('Body Art Design & Tattoo');
