@@ -1,5 +1,7 @@
 <?php 
 require_once(__DIR__ . '/../includes/session.php');
+require_once(__DIR__ . '/../includes/database.php');
+require_once(__DIR__ . '/../includes/categories.php');
 $session = Session::getInstance();
 $user = $session->getUser() ?? null;
 ?>
@@ -41,25 +43,13 @@ $user = $session->getUser() ?? null;
             <section id="categories">
                 <div id = "block">
                     <h2>Explore categories</h2>
-                    <div id="category-list">
-                        <div class="category-item">
-                            <a class="category-link">Illustration & Digital Art</a>
-                        </div>
-                        <div class="category-item">
-                            <a class="category-link">Graphic Design and Branding</a>
-                        </div>
-                        <div class="category-item">
-                            <a class="category-link">Traditional Art & Painting</a>
-                        </div>
-                        <div class="category-item">
-                            <a class="category-link">3D Art & Animation</a>
-                        </div>
-                        <div class="category-item">
-                            <a class="category-link">Handmade & Craft Art</a>
-                        </div>
-                        <div class="category-item">
-                            <a class="category-link">Body Art Design & Tattoo</a>
-                        </div>
+                    <div id = "category-list">
+                        <?php $categories = getCategories(); ?>
+                        <?php foreach ($categories as $category): ?>
+                            <div class="category-item">
+                                <a class="category-link"><?= htmlspecialchars($category['category_type']) ?></a>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                     <a id = "link">see more -></a>
                 </div>
