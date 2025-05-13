@@ -284,3 +284,14 @@ header:first-of-type {
     padding-left: 0; 
     list-style-position: inside; 
 }
+
+#end-footer {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 5em;
+    padding: 1em;
+    font-size: 1em;
+    opacity: 0.6;
+    padding-bottom: 0;
+}
