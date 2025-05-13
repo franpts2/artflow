@@ -68,21 +68,27 @@ $user = $session->getUser() ?? null;
             </section>
             <footer id="end">
                 <h2>Artflow</h2>
-                <div id="authors">
-                    <h3>Developed by:</h3>
-                    <ul>
-                        <li class="author">Francisca Portugal</li>
-                        <li class="author">Gabriela de Mattos</li>
-                        <li class="author">Maria Luiza Vieira</li>
-                    </ul>
+                <div id="end-content">
+                    <div id="authors">
+                        <h3>Developed by:</h3>
+                        <ul>
+                            <li class="author">Francisca Portugal</li>
+                            <li class="author">Gabriela de Mattos</li>
+                            <li class="author">Maria Luiza Vieira</li>
+                        </ul>
+                    </div>
+                    <div id="footer-links">
+                        <h3>Quick Links:</h3>
+                        <ul>
+                            <li class="footer-link"><a>Home</a></li>
+                            <li class="footer-link"><a>Page 1</a></li>
+                            <li class="footer-link"><a>Page 2</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="footer-links">
-                    <h3>Quick Links:</h3>
-                    <ul>
-                        <li class="footer-link"><a>Home</a></li>
-                        <li class="footer-link"><a>Page 1</a></li>
-                        <li class="footer-link"><a>Page 2</a></li>
-                    </ul>
+                <div id="end-footer">
+                    <p>This website was built in the context of the course Linguagens e Tecnologias Web of the Bachelor’s Informatics and Computing Engineering of University of Porto .</p>
+                    <p>© All rights reserved.</p>
                 </div>
             </footer>
         </main>
