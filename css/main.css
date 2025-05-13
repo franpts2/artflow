@@ -73,10 +73,10 @@ header:first-of-type {
 #title {
     grid-area: title;
     min-height: 600px;
-    padding: 2rem;
+    padding: 0;
     align-content:start;
     justify-self: start;
-    transform: translateX(80%);
+    transform: translateX(100%);
     margin-top: 3em;
 }
 
@@ -99,8 +99,15 @@ header:first-of-type {
     margin-top: 0;
 }
 
+#boxes {
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    background-color: var(--purple);
+}
+
 #boxes .box {
-    position:relative;
+    position: absolute; 
     box-sizing: border-box;
     width: 150px;
     height: 150px;
@@ -114,16 +121,21 @@ header:first-of-type {
 
 #box1 {
     background-color: var(--orange);
+    top: -150px;
+    left: 500px; 
 }
 
 #box2 {
     background-color: var(--green);
+    top: -50px;
+    left: 600px; 
 }
 
 #box3 {
     background-color: var(--yellow);
+    top: 30px; 
+    left: 420px;
 }
-
 
 #end {
     box-sizing: border-box;
