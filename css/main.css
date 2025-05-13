@@ -72,21 +72,13 @@ header:first-of-type {
 
 #title {
     grid-area: title;
-    min-height: 400px;
+    min-height: 600px;
     padding: 2rem;
     background-color: white; 
     align-content:center;
     justify-self: center;
 }
 
-
-#info {
-    grid-area: info;
-    min-height: 400px;
-    padding: 2rem;
-    background-color: var(--yellow); 
-    align-content: center;
-}
 
 #end {
     box-sizing: border-box;
@@ -121,25 +113,51 @@ header:first-of-type {
     line-height: 0.4;
 }
 
-#info > div {
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 8px;
-    width: 50%;
-    height: 85%;
-    margin-left: 25%;
-    padding: 2rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    
-}
-
 .hidden {
     display: none !important;
 }
 
+#info {
+    grid-area: info;
+    min-height: 600px;
+    padding: 2rem;
+    background-color: var(--yellow); 
+    align-content: center;
+}
+
+#info p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    max-width: 600px;
+    color: #555;
+    line-height: 1.4;
+}
+
+#info h2 {
+    font-family: 'Modak', serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    line-height: 0.7;
+    font-weight: 100;
+    margin-top: 0.5em;
+}
+
+#info > div {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
 #categories {
     grid-area: categories;
-    min-height: 400px;
+    min-height: 600px;
     padding: 2rem;
     background-color: var(--green); 
     font-family: 'EDGaramond', serif;
