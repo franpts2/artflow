@@ -18,6 +18,7 @@
                         <button type="submit" class="button long filled classic yellow">Sign In</button>
                         <button type="button" id="sign-up" class="button long outline yellow">Sign Up</button>
                     </div>
+                    <div id="signin-error" class="error-message"></div>
                 </form>
             </div>
         </div>

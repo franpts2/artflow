@@ -23,6 +23,7 @@
                         <button type="submit" id='sign-up-submit' class="button long filled classic">Sign Up</button>
                         <button type="button" id="sign-in" class="button long outline">Sign In</button>
                     </div>
+                    <div id="signup-error" class="error-message"></div>
                 </form>
             </div>
             <div class="modal-right">

@@ -2,6 +2,23 @@
 /* GLOBAL MODAL STYLES (applies to ALL modals)   */
 /* ============================================== */
 
+/* Error message styling */
+.error-message {
+	color: #f25c54;
+	font-size: 0.9rem;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.form {
+	position: relative; /* For absolute positioning of error message */
+}
+
+.hidden {
+	display: none;
+}
+
 /* Overlay that covers the entire screen behind modals */
 .modal-overlay {
 	position: fixed;
