@@ -72,9 +72,9 @@ $user = $session->getUser() ?? null;
                     <div id="authors">
                         <h3>Developed by:</h3>
                         <ul>
-                            <li class="author">Francisca Portugal</li>
-                            <li class="author">Gabriela de Mattos</li>
-                            <li class="author">Maria Luiza Vieira</li>
+                            <li class="author">@ Francisca Portugal</li>
+                            <li class="author">@ Gabriela de Mattos</li>
+                            <li class="author">@ Maria Luiza Vieira</li>
                         </ul>
                     </div>
                     <div id="footer-links">
