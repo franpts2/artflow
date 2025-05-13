@@ -90,16 +90,20 @@ header:first-of-type {
     grid-area: info;
     min-height: 400px;
     padding: 2rem;
-    background-color: var(--beige); 
+    background-color: var(--yellow); 
     align-content: center;
 }
 
 #end {
+    box-sizing: border-box;
     grid-area: end;
     min-height: 400px;
     padding: 2rem;
     background-color: white; 
-}
+    border-color: var(--green);
+    border-width: 7px 0 0 0; 
+    border-style: solid;
+} 
 
 #title h2 {
     font-family: 'EB Garamond', serif;
@@ -130,8 +134,14 @@ header:first-of-type {
     width: 50%;
     height: 85%;
     margin-left: 25%;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    
 }
 
 .hidden {
     display: none !important;
 }
+
+
+

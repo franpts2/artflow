@@ -38,11 +38,39 @@ $user = $session->getUser() ?? null;
                 <span class='flow-text'>flows</span> seamlessly</h2>
                 <p>a collection of diverse artistic talents</p>
             </section>
-            <section id="categories"></section>
-            <section id="info">
-                <div></div>
+            <section id="categories">
+                <h2>Explore categories</h2>
+                <div id="category-list">
+                    <div class="category-item">
+                        <a class="category-link">Illustration & Digital Art</a>
+                    </div>
+                    <div class="category-item">
+                        <a class="category-link">Graphic Design and Branding</a>
+                    </div>
+                    <div class="category-item">
+                        <a class="category-link">Traditional Art & Painting</a>
+                    </div>
+                    <div class="category-item">
+                        <a class="category-link">3D Art & Animation</a>
+                    </div>
+                    <div class="category-item">
+                        <a class="category-link">Handmade & Craft Art</a>
+                    </div>
+                    <div class="category-item">
+                        <a class="category-link">Body Art Design & Tattoo</a>
+                    </div>
+                </div>
+                <a id = "link">see more</a>
             </section>
-            <footer id="end"></footer>
+            <section id="info">
+                <div>
+                    <h2>Our motivation</h2>
+                    <p>Etiam pellentesque tempus rutrum. Nullam eget nisl nec nulla ultrices commodo eget eget erat. Phasellus non rutrum erat. Duis nec rhoncus enim. Sed condimentum, odio facilisis maximus aliquet, tellus arcu consequat nibh, nec ultrices erat mauris vitae nisi. In maximus posuere egestas. Aenean congue justo non augue eleifend eleifend. Pellentesque dapibus, orci vitae tempus posuere, dolor risus dapibus augue, sed vehicula orci neque ac orci. Phasellus auctor vulputate volutpat.</p>
+                </div>
+            </section>
+            <footer id="end">
+                
+            </footer>
         </main>
 
         <?php if (!$user): ?>
