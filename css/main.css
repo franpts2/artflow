@@ -103,7 +103,6 @@ header:first-of-type {
     position: relative; 
     width: 100%; 
     height: auto; 
-    background-color: var(--purple);
 }
 
 #boxes .box {
