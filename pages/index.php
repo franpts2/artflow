@@ -39,28 +39,30 @@ $user = $session->getUser() ?? null;
                 <p>a collection of diverse artistic talents</p>
             </section>
             <section id="categories">
-                <h2>Explore categories</h2>
-                <div id="category-list">
-                    <div class="category-item">
-                        <a class="category-link">Illustration & Digital Art</a>
+                <div id = "block">
+                    <h2>Explore categories</h2>
+                    <div id="category-list">
+                        <div class="category-item">
+                            <a class="category-link">Illustration & Digital Art</a>
+                        </div>
+                        <div class="category-item">
+                            <a class="category-link">Graphic Design and Branding</a>
+                        </div>
+                        <div class="category-item">
+                            <a class="category-link">Traditional Art & Painting</a>
+                        </div>
+                        <div class="category-item">
+                            <a class="category-link">3D Art & Animation</a>
+                        </div>
+                        <div class="category-item">
+                            <a class="category-link">Handmade & Craft Art</a>
+                        </div>
+                        <div class="category-item">
+                            <a class="category-link">Body Art Design & Tattoo</a>
+                        </div>
                     </div>
-                    <div class="category-item">
-                        <a class="category-link">Graphic Design and Branding</a>
-                    </div>
-                    <div class="category-item">
-                        <a class="category-link">Traditional Art & Painting</a>
-                    </div>
-                    <div class="category-item">
-                        <a class="category-link">3D Art & Animation</a>
-                    </div>
-                    <div class="category-item">
-                        <a class="category-link">Handmade & Craft Art</a>
-                    </div>
-                    <div class="category-item">
-                        <a class="category-link">Body Art Design & Tattoo</a>
-                    </div>
+                    <a id = "link">see more -></a>
                 </div>
-                <a id = "link">see more</a>
             </section>
             <section id="info">
                 <div>
@@ -69,7 +71,7 @@ $user = $session->getUser() ?? null;
                 </div>
             </section>
             <footer id="end">
-                
+                <h2>Artflow</h2>
             </footer>
         </main>
 
