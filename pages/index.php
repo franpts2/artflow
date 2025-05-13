@@ -45,7 +45,8 @@ $user = $session->getUser() ?? null;
                     <h2>Explore categories</h2>
                     <div id = "category-list">
                         <?php $categories = getCategories(); ?>
-                        <?php foreach ($categories as $category): ?>
+                        <?php foreach ($categories as $index => $category): ?>
+                            <?php if ($index >= 6) break; // limit to the first 6 categories ?>
                             <div class="category-item">
                                 <a class="category-link"><?= htmlspecialchars($category['category_type']) ?></a>
                             </div>
