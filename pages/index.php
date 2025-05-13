@@ -39,11 +39,16 @@ $user = $session->getUser() ?? null;
                 <h2>where creativity<br>
                 <span class='flow-text'>flows</span> seamlessly</h2>
                 <p>a collection of diverse artistic talents</p>
+                <div id="boxes">
+                    <div class="box" id="box1"></div>
+                    <div class="box" id="box2"></div>
+                    <div class="box" id="box3"></div>
+                </div>
             </section>
             <section id="categories">
-                <div id = "block">
+                <div id="block">
                     <h2>Explore categories</h2>
-                    <div id = "category-list">
+                    <div id="category-list">
                         <?php $categories = getCategories(); ?>
                         <?php foreach ($categories as $index => $category): ?>
                             <?php if ($index >= 6) break; // limit to the first 6 categories ?>
@@ -52,7 +57,7 @@ $user = $session->getUser() ?? null;
                             </div>
                         <?php endforeach; ?>
                     </div>
-                    <a id = "link">see more -></a>
+                    <a id="link">see more -></a>
                 </div>
             </section>
             <section id="info">
