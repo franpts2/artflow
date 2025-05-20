@@ -2,9 +2,6 @@
 
 @import url('components.css');
 @import url('modals.css');
-@import url('responsive/home-responsive.css');
-@import url('sidebar.css');
-
 
 :root {
     /*theme colors*/
@@ -41,7 +38,7 @@ ul>li {
 
 #buttons {
     display: flex;
-    gap: 3em;
+    gap: 5em;
     margin-right: 3em;
 }
 
@@ -78,11 +75,11 @@ header:first-of-type {
 
 #title {
     grid-area: title;
-    min-height: 700px;
+    min-height: 600px;
     padding: 0;
     align-content: start;
     justify-self: start;
-    margin: 0 auto;
+    transform: translateX(100%);
     margin-top: 3em;
 }
 
@@ -93,7 +90,6 @@ header:first-of-type {
     margin-bottom: 1rem;
     color: black;
     font-weight: 100;
-    margin-left: 1em; 
 }
 
 #title p {
@@ -102,19 +98,18 @@ header:first-of-type {
     max-width: 600px;
     color: #555;
     line-height: 0.4;
+    margin-left: 0.7em;
     margin-top: 0;
-    margin-left: 3em; 
 }
 
 #boxes {
-    position: relative; 
-    width: 100%; 
-    height: auto; 
-    margin-right: 2em;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 #boxes .box {
-    position: relative; 
+    position: absolute;
     box-sizing: border-box;
     width: 150px;
     height: 150px;
@@ -124,31 +119,26 @@ header:first-of-type {
     border-color: #B08968;
     border-width: 7px;
     border-style: solid;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Added transition */
-}
-
-#boxes .box:hover {
-    transform: scale(1.1); 
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
 }
 
 #box1 {
     background-color: var(--orange);
-    margin-top: -150px; 
-    margin-left: 470px;
+    top: -150px;
+    left: 500px;
 }
 
 #box2 {
     background-color: var(--green);
-    margin-top: -50px; 
-    margin-left: 570px; 
+    top: -50px;
+    left: 600px;
 }
 
 #box3 {
     background-color: var(--yellow);
-    margin-top: -50px; 
-    margin-left: 390px; 
+    top: 30px;
+    left: 420px;
 }
+
 
 .flow-text {
     font-style: italic;
@@ -160,7 +150,7 @@ header:first-of-type {
 
 #info {
     grid-area: info;
-    min-height: 700px;
+    min-height: 600px;
     padding: 2rem;
     background-color: var(--yellow);
     align-content: center;
@@ -172,9 +162,6 @@ header:first-of-type {
     max-width: 600px;
     color: #555;
     line-height: 1.4;
-    padding: 1em;
-    padding-top: 0;
-    margin: 0 auto;
 }
 
 #info h2 {
@@ -185,7 +172,6 @@ header:first-of-type {
     line-height: 0.7;
     font-weight: 100;
     margin-top: 0.5em;
-    max-width: 600px;
 }
 
 #info>div {
@@ -193,22 +179,20 @@ header:first-of-type {
     background-color: white;
     border-radius: 20px;
     width: 50%;
-    height: auto;
+    height: 70%;
     margin-left: 25%;
-    padding: 1rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 
 #categories {
     grid-area: categories;
-    min-height: 700px;
+    min-height: 600px;
     padding: 2rem;
     background-color: var(--green);
     font-family: 'EDGaramond', serif;
     padding-bottom: 10em;
-    justify-content: flex-end;
-    align-content: center;
 }
 
 #categories h2 {
@@ -216,16 +200,13 @@ header:first-of-type {
     line-height: 1.2;
     line-height: 0.7;
     font-weight: 50;
-    text-align: right;
+    text-align: center;
     padding-top: 0.3em;
-    padding-bottom: 0;
-    margin-right: 3em;
-    margin-bottom: 0;
+    padding-bottom: 0.7em;
 }
 
 .category-item {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: end;
@@ -237,8 +218,7 @@ header:first-of-type {
     font-weight: 100;
     text-align: start;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    max-height: calc(2 * 90px + 1rem); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #category-list {
@@ -246,24 +226,18 @@ header:first-of-type {
     flex-wrap: wrap;
     gap: 3.5em;
     margin-bottom: 1em;
-    max-height: calc(2 * 100px + 2 * 3.5em); 
-    overflow-y: hidden; 
-    justify-content: center; 
-    width: 600px;
-    padding: 3em;
-    padding-bottom: 1em;
 }
 
-#block > a {
-    margin-left: 85%;
+#block>a {
+    margin-left: 78%;
     color: white;
     text-decoration: underline;
 }
 
 #block {
-    width: 600px;
-    height: auto;
-    margin-left: 35%;
+    width: 40%;
+    height: 100%;
+    margin-left: 40%;
 }
 
 #end {
@@ -324,46 +298,3 @@ header:first-of-type {
     opacity: 0.6;
     padding-bottom: 0;
 }
-
-#search-icon {
-    width: 1em;
-    height: auto;
-}
-
-#search-button {
-    background-color: transparent;
-    border: none;
-    margin-right: 6px;
-}
-
-#search-input {
-    border: none;
-    background-color: transparent;
-    margin-left: 6px;
-    outline: none;
-}
-
-#search-bar {
-    background-color: white;
-    border-radius: 3px;
-    width: 15rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    translate: 0 5px;
-    margin: 0; 
-    padding: 4px 6px;
-    margin-bottom: 0.5em;
-    margin-right: 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);}
-
-#menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-}
-
-
