@@ -147,8 +147,9 @@ Here is the illustrative class diagram of this site:
 2. Set up the database
 
    ```
-   sqlite3 database/database.db < database/database.sql
-   sqlite3 database/database.db < database/populate.sql
+   cd database/
+   sqlite3 database.db < database.sql
+   sqlite3 database.db < populate.sql
    ```
 
 3. Start the development server
