@@ -144,11 +144,6 @@ Here is the illustrative class diagram of this site:
 
 1. Clone the repository
 
-   ```
-   git clone https://github.com/yourusername/artflow.git
-   cd artflow
-   ```
-
 2. Set up the database
 
    ```
