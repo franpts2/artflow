@@ -158,7 +158,7 @@ Here is the illustrative class diagram of this site:
 
 **Course**
 
-Developed for **Linguagens e Tecnologias Web (LTW)** at the Bachelor's in Informatics and Computing Engineering, University of Porto.
+Developed for **Linguagens e Tecnologias Web (LTW)** in 2024/25 at the Bachelor's in Informatics and Computing Engineering, University of Porto.
 
 ## License
 
