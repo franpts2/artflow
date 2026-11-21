@@ -1,21 +1,16 @@
-# <img src='images/logos/a.png' alt='artflow logo'> artflow
+# artflow
 
-## Where Creativity Flows Seamlessly
+A freelancing platform exclusively for artists: showcase work, connect with clients, and get paid fairly.
 
-<p><strong>artflow</strong> is a freelancing platform exclusively for artists—a place where illustrators, painters, designers, and digital creators can thrive, connect with clients who value authentic work, and earn a fair income from their craft.</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+</p>
 
-## 📋 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [System Architecture](#system-architecture)
-- [Technology Stack](#technology-stack)
-- [Installation & Setup](#installation--setup)
-- [Demo Accounts](#demo-accounts)
-- [Development Team](#development-team)
-
-## Project Overview
+## About
 
 In an era where artificial intelligence is rapidly transforming creative industries, many fear that AI-generated art will overshadow human creativity. 'artflow' was created as a response to these concerns—a platform that celebrates and empowers human creativity rather than replacing it.
 
@@ -122,7 +117,7 @@ The application includes several key interfaces:
 <img src="docs/mockups/login-system-modals.png" alt="Login System">
 <br><br>
 
-## System Architecture
+## How It Works
 
 ArtFlow follows a structured MVC-inspired architecture with clear separation of concerns:
 
@@ -133,14 +128,7 @@ ArtFlow follows a structured MVC-inspired architecture with clear separation of 
 Here is the illustrative class diagram of this site:
 <img src='docs/uml.png'>
 
-## Technology Stack
-
-- **Backend:** PHP
-- **Database:** SQLite
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Security:** CSRF protection, password hashing, input validation
-
-## Installation & Setup
+## Quick Start
 
 1. Clone the repository
 
@@ -160,72 +148,22 @@ Here is the illustrative class diagram of this site:
 
 4. Access the application at `http://localhost:9000`
 
-## Demo Accounts
+## Team & Course
 
-For testing purposes, use any of the following accounts:
-
-| Role       | Email             | Password     |
-| ---------- | ----------------- | ------------ |
-| Admin      | admin@artflow.com | Teresa.mag17 |
-| Freelancer | john@example.com  | Teresa.mag17 |
-
-_Additional test accounts available in the credentials section below_
-
-## Development Team
+**Team**
 
 - <a href='https://github.com/franpts2'>Francisca Portugal</a>
 - <a href='https://github.com/gab1demattos'>Gabriela de Mattos</a>
 - <a href='https://github.com/maluviieira'>Maria Luiza Vieira</a>
 
+**Course**
+
+Developed for **Linguagens e Tecnologias Web (LTW)** at the Bachelor's in Informatics and Computing Engineering, University of Porto.
+
+## License
+
+Coursework submitted at FEUP. Shared for reference; all rights reserved unless stated otherwise.
+
 ---
 
-### Additional Test Credentials
-
-```
-jane@example.com / Teresa.mag17
-michael@example.com / Teresa.mag17
-sarah@example.com / Teresa.mag17
-david@example.com / Teresa.mag17
-emily@example.com / Teresa.mag17
-alex@example.com / Teresa.mag17
-teresamag@example.com / Teresa.mag17
-carlos@example.com / Teresa.mag17
-sophia@example.com / Teresa.mag17
-ahmed@example.com / Teresa.mag17
-maria@example.com / Teresa.mag17
-jason@example.com / Teresa.mag17
-nina@example.com / Teresa.mag17
-lucas@example.com / Teresa.mag17
-emma@example.com / Teresa.mag17
-daniel@example.com / Teresa.mag17
-isabella@example.com / Teresa.mag17
-thomas@example.com / Teresa.mag17
-olivia@example.com / Teresa.mag17
-ryan@example.com / Teresa.mag17
-zoe@example.com / Teresa.mag17
-marcus@example.com / Teresa.mag17
-rachel@example.com / Teresa.mag17
-jwilson@example.com / Teresa.mag17
-sophia.m@example.com / Teresa.mag17
-adrian.k@example.com / Teresa.mag17
-lena.p@example.com / Teresa.mag17
-victor.r@example.com / Teresa.mag17
-maya.j@example.com / Teresa.mag17
-felix.w@example.com / Teresa.mag17
-elena.p@example.com / Teresa.mag17
-kai.n@example.com / Teresa.mag17
-beatrice.s@example.com / Teresa.mag17
-hassan.a@example.com / Teresa.mag17
-luna.c@example.com / Teresa.mag17
-gabriel.s@example.com / Teresa.mag17
-nadia.p@example.com / Teresa.mag17
-oscar.f@example.com / Teresa.mag17
-yuki.t@example.com / Teresa.mag17
-leo.c@example.com / Teresa.mag17
-alice.b@example.com / Teresa.mag17
-marco.r@example.com / Teresa.mag17
-priya.k@example.com / Teresa.mag17
-system@artflow.com / Teresa.mag17
-```
-
-_This project was developed as part of the Linguagens e Tecnologias Web course at the Bachelor's in Informatics and Computing Engineering program at the University of Porto._
+_artflow — where creativity flows seamlessly._
